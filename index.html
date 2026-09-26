@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ঠিকাদার খাতা — Thikadar Khata</title>
+<meta name="description" content="ঠিকাদারের প্রজেক্ট, মালামাল, মিস্ত্রি আর টাকার হিসাব রাখার Android অ্যাপ। An Android ledger app for building contractors.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --green: #006A4E; --green-2: #0B8A66; --page: #F3F6F4; --card: #FFFFFF; --line: #DCE5E0; --text: #16211C; --muted: #4A5A52; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--text); font: 17px/1.75 "Noto Sans Bengali", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--green); }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+  .hero { background: linear-gradient(135deg, var(--green), var(--green-2)); color: #fff; padding: 44px 0 36px; }
+  .logo { width: 72px; height: 72px; display: block; margin-bottom: 14px; }
+  h1 { font-size: 34px; line-height: 1.3; margin: 0; }
+  .en-name { margin: 0 0 12px; opacity: .9; }
+  .lead { font-size: 19px; margin: 0; max-width: 34em; }
+  main { padding: 24px 0 40px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px 22px; margin-bottom: 16px; }
+  h2 { font-size: 21px; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 18px; }
+  .links a { background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px; text-decoration: none; font-weight: 600; }
+  .muted { color: var(--muted); font-size: 15px; }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <svg class="logo" viewBox="18 18 72 72" aria-hidden="true">
+      <rect x="18" y="18" width="72" height="72" rx="16" fill="#fff"/>
+      <path transform="translate(30 30) scale(0.05)" fill="#006A4E" fill-rule="evenodd" d="M200,840L200,680L120,680L120,600L200,600L200,434L88,520L40,456L480,120L920,456L872,520L760,434L760,600L840,600L840,680L760,680L760,840L680,840L680,680L520,680L520,840L440,840L440,680L280,680L280,840L200,840ZM280,600L440,600L440,251L280,373L280,600ZM520,600L680,600L680,373L520,251L520,600Z"/>
+    </svg>
+    <h1>ঠিকাদার খাতা</h1>
+    <p class="en-name">Thikadar Khata</p>
+    <p class="lead">ঠিকাদারের প্রজেক্ট, মালামাল, মিস্ত্রি আর টাকার হিসাব — এক খাতায়, বাংলায়, ইন্টারনেট ছাড়াও।</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="card">
+    <h2>কী কী করা যায়</h2>
+    <ul>
+      <li>প্রজেক্ট আর ক্লায়েন্টের হিসাব: চুক্তি, বিল, জমা, বকেয়া</li>
+      <li>মালামাল কেনা, সাপ্লাইয়ের চালান আর সাইটের স্টক</li>
+      <li>মিস্ত্রির হাজিরা, অগ্রিম, পেমেন্ট আর সাপ্তাহিক হিসাব</li>
+      <li>রিপোর্ট — PDF আর Excel, হোয়াটসঅ্যাপে পাঠানো যায়</li>
+      <li>বাংলায় ভয়েস কমান্ড</li>
+      <li>অ্যাপ লক, আর নিজের Google Drive-এ রোজ ব্যাকআপ</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>আপনার হিসাব আপনার কাছেই</h2>
+    <p>সব হিসাব থাকে আপনার ফোনে। Google Drive ব্যাকআপ চালু করলে কপি যায় আপনার নিজের Google Drive-এ, আর কোথাও না। আমাদের কোনো সার্ভার নেই; আপনার হিসাব আমরা দেখি না।</p>
+  </section>
+
+  <section class="card" lang="en">
+    <h2>About</h2>
+    <p>Thikadar Khata is an Android app for building contractors in Bangladesh: projects and client accounts, bills and receipts, materials and site stock, workers' attendance and payments, reports in PDF and Excel, Bangla voice commands, an app lock, and a daily backup to the user's own Google Drive. All records stay on the phone; the backup goes only to the user's own Google Drive.</p>
+  </section>
+
+  <nav class="links">
+    <a href="privacy.html">গোপনীয়তা নীতি · Privacy Policy</a>
+    <a href="terms.html">ব্যবহারের শর্ত · Terms of Service</a>
+  </nav>
+  <p class="muted">যোগাযোগ · Contact: <a href="mailto:shakil.cse55@gmail.com">shakil.cse55@gmail.com</a></p>
+</main>
+</body>
+</html>
